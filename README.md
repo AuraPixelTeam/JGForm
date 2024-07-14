@@ -3,6 +3,10 @@
 JGForm is the all in one UI menu plugin!  
 You can create UI menus that open with custom commands that will show stats or perform actions specific to the player who opened it.
 
+## Developers and Contributors
+- Dev: Jung Ganmyeon
+- Support: Clicked Tran
+- 
 ## Dependency
 - [FormAPI](https://github.com/jojoe77777/FormAPI)
 
