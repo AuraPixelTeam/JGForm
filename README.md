@@ -14,10 +14,8 @@ You can create UI menus that open with custom commands that will show stats or p
 ## Commands
 * `/<custom command specified for the Form>`
 Open menu
-* `/jg list`
-Lists all menus you have access to  
-* `/jgreload`  
-Reloads the menus and settings
+* `/jg list` Lists all menus you have access to  
+* `/jgreload` Reloads the menus and settings
 
 ## Permissions
 * `<permission your menu>`  
