@@ -19,6 +19,14 @@ Lists all menus you have access to
 * `/jgreload`  
 Reloads the menus and settings
 
+## Permissions
+* `<permission your menu>`  
+Lets you open a menu regardless of if you have the permissions for it.  
+Default: OP
+* `jgform.menu.*`  
+Gives permission for all menus.  
+Default: OP
+
 ## Configuration Example Shop.yml
 ```yml
 formname: "Shop"
@@ -47,11 +55,3 @@ buttons:
     image:
       type: "url"
       data: "https://example.com/image1.png"```
-      
-## Permissions
-* `<permission your menu>`  
-Lets you open a menu regardless of if you have the permissions for it.  
-Default: OP
-* `jgform.menu.*`  
-Gives permission for all menus.  
-Default: OP
