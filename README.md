@@ -6,7 +6,7 @@ You can create UI menus that open with custom commands that will show stats or p
 ## Developers and Contributors
 - Dev: Jung Ganmyeon
 - Support: Clicked Tran
-- 
+
 ## Dependency
 - [FormAPI](https://github.com/jojoe77777/FormAPI)
 
