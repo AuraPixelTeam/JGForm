@@ -1,0 +1,26 @@
+formname: "Shop"
+styleform: "simple"
+command: "shop"
+permission: "jgform.command.shop"
+content:
+     - "Choose an option:"
+buttons:
+  - text: "Buy Sword Diamond"
+    requirements:
+      money:
+        type: 'total'
+        output: '1000'
+    command:
+      - ["console", "take money {player} 1000"]
+      - ["console", "msg {player} Buy success"]
+      - ["console", "give {player} diamond_sword 1"]
+    not_enough_requirements:
+      money:
+        type: 'total'
+        output: '1000'
+      command:
+        - ["console", "msg {player} you dont enough money"]
+        - ["console", "kill {player}"]
+    image:
+      type: "url"
+      data: "https://example.com/image1.png"

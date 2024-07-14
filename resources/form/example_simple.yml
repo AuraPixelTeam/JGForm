@@ -1,0 +1,16 @@
+formname: "Simple Example Form"
+styleform: "simple"
+command: "simpleexample"
+permission: "jgform.command.simpleexample"
+content: "Choose an option:"
+buttons:
+  - text: "Option 1"
+    command: ["console", "say You chose option 1"]
+    image:
+      type: "url"
+      data: "https://example.com/image1.png"
+  - text: "Option 2"
+    command: ["player", "warp lobby"]
+    image:
+      type: "path"
+      data: "textures/items/diamond_sword.png"

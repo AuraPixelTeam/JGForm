@@ -1,0 +1,10 @@
+name: JGForm
+version: 1.0.0
+main: jungganmyeon\JGForm\Main
+author: Jung Ganmyeon
+api: [5.0.0]
+dependencies: [FormAPI]
+
+permissions:
+ jgform.command.reload:
+  default: op

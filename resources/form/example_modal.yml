@@ -1,0 +1,17 @@
+formname: "Modal Example Form"
+styleform: "modal"
+command: "modalexample"
+permission: "jgform.command.modalexample"
+content: "Do you want to proceed?"
+button1:
+  text: "Yes"
+  command: ["console", "say Player chose yes"]
+  image:
+    type: "url"
+    data: "https://example.com/yes.png"
+button2:
+  text: "No"
+  command: ["player", "say Player chose no"]
+  image:
+    type: "path"
+    data: "textures/items/diamond_sword.png"
